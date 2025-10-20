@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <title>Convite de Casamento — Matheus & Patrícia</title>
+</head>
+
+<body>
+
+<header>
+</header>
+
+<main>
+    <div class="box">
+
+        <a href="index.html" class="back">voltar</a>  
+
+        <h1 class="fade-in zoom">Localização da Cerimônia</h1>
+        <p class="verse">Endereço: <br>
+            R. Afonso Arinos, 157, Da Paz - Parauapebas, PA - 68515-000.</p>
+
+        <iframe class="frame"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d495.9187574656263!2d-49.8905521!3d-6.0834482!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92dd519523b8fb79%3A0x72c524d7237fddd0!2sSal%C3%A3o%20do%20Reino%20das%20Testemunhas%20de%20Jeov%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1755284724655!5m2!1spt-BR!2sbr" 
+            width="90%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="none" 
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+
+
+
+        <br>
+        <button id="bnt.app" type="button">Abrino no Aplicativo</button> 
+
+        <script>
+
+            document.getElementById('bnt.app').addEventListener('click', () => {
+            window.location.href = 'https://maps.app.goo.gl/iTXWbjFsSzmAhUM29';
+            });
+
+        </script>
+
+
+        <div class="contagem">
+        <p class="cont">Contagem regressiva:</p>
+        <div class="countdown" id="timer">
+        </div>
+         </div>
+
+    </div>
+</main>
+
+<footer>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

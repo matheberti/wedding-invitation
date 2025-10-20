@@ -1,0 +1,332 @@
+
+:root {
+  /* Cor Rose Gold */
+  --cor01: #a5796e;
+  --cor02: #dcb4a8;
+  --cor03: #f2e0dc;
+  --cor04: #b48c8a;
+  --cor05: #d8a5a1;
+
+  /*Tamanhos icones clicaveis*/
+  --icon-w: 90px;
+  --icon-h: 55px;
+}
+
+/*-----------------------> corpo das paginas <-----------------------*/
+
+body {
+  margin: 0;
+  padding: 0 !important;
+  font-family: 'Libre Baskerville', serif;
+  background: url('img/fundo.png')  center top;
+  background-size:495px;
+  color: var(--cor04);
+  text-align: center;
+  padding: 20px;
+  background-color: #b0002034;
+}
+header{
+background: url('img/bg.png') no-repeat center top;
+background-size: 495px;
+height: 620px;
+}
+main{
+margin-top: -100px;
+background-size: 550px;
+}
+
+footer{
+background: url('img/moldura.png') no-repeat center top;
+background-size: 500px;
+height: 300px;
+margin-top: -100px;
+}
+
+.box {
+  max-width: 492px;
+  margin: 0 auto;
+  border: 2px solid var(--cor01);
+  border-radius: 10px;
+  background: #ffffff7e;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 12px 30px rgba(0,0,0,.06);
+}
+
+.back{
+  text-decoration: none;
+  color: var(--cor01);
+  text-align: justify;
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 5px 10px 0px;
+  text-align: left
+}
+.cont{
+  margin: 0px;
+}
+.contagem{
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+/*-----------------------> Pagina inicial <-----------------------*/
+
+.verse {
+  font-style: italic;
+  font-size: 14px;
+  max-width: 480px;
+  margin: 0 auto 20px;
+  color: var(--cor01);
+  font-weight: 700;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 48px;
+  margin: 10px 0 30px;
+  color: var(--cor01);
+}
+
+.date-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.date, .time {
+  border-top: 2px solid var(--cor01);
+  border-bottom: 2px solid var(--cor01);
+  padding: 10px 20px;
+  width: 120px;
+}
+
+.date strong,
+.time strong {
+  display: block;
+  font-size: 26px;
+}
+
+.day {
+  padding: 10px 0px;
+}
+
+.day strong {
+  display: block;
+  font-size: 26px;
+}
+
+.info {
+  max-width: 500px;
+  margin: 0 auto 40px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--cor01);
+  font-size: 12px;
+}
+
+.sep {
+  height: 32px;
+  background-color: var(--cor01);
+  -webkit-mask: url('img/linha.png') no-repeat center / contain;
+  mask: url('img/linha.png') no-repeat center / contain;
+}
+
+.cerim {
+  width: var(--icon-w);
+  height: var(--icon-h);
+  background-color: var(--cor01);
+  -webkit-mask: url('img/Local.png') no-repeat center / contain;
+  mask: url('img/Local.png') no-repeat center / contain;
+}
+
+.recep {
+  width: var(--icon-w);
+  height: var(--icon-h);
+  background-color: var(--cor01);
+  -webkit-mask: url('img/Recepcao.png') no-repeat center / contain;
+  mask: url('img/Recepcao.png') no-repeat center / contain;
+}
+
+.list {
+  width: var(--icon-w);
+  height: var(--icon-h);
+  background-color: var(--cor01);
+  -webkit-mask: url('img/Presente.png') no-repeat center / contain;
+  mask: url('img/Presente.png') no-repeat center / contain;
+}
+
+.confirm {
+  width: var(--icon-w);
+  height: var(--icon-h);
+  background-color: var(--cor01);
+  -webkit-mask: url('img/Lista.png') no-repeat center / contain;
+  mask: url('img/Lista.png') no-repeat center / contain;
+}
+
+/* -----------------------> Formulario de confirmação <----------------------- */
+
+.box label {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 20px 10px 5px;
+  text-align: left;
+  color: var(--cor01);
+}
+.box input{
+  display:block;
+  width: 445px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--cor03);
+  font-size: 15px;
+  margin: 5px 10px;
+
+}
+
+.box select {
+  display:block;
+  width: 471px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--cor03);
+  color: var(--cor01);
+  opacity: 75%;
+  font-size: 15px;
+  margin: 5px 10px;
+  appearance: none;
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+.box select option {
+  color: var(--cor01);
+  opacity: 75%;
+  font-family: 'Libre Baskerville', serif;
+  outline: none;
+  box-shadow: none;
+
+}
+
+.box textarea {
+  display:block;
+  width: 445px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--cor03);
+  font-size: 15px;
+  margin: 5px 10px;
+
+}
+
+.box input::placeholder, .box textarea::placeholder {
+  color: var(--cor01);
+  opacity: 75%; 
+}
+
+.box button {
+  display:block;
+  width: 90%;
+  margin: 20px auto 10px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 0;
+  background: var(--cor04);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.box button:hover{
+background: var(--cor01);;
+}
+
+.form button:disabled { 
+  opacity: .6; 
+  cursor: wait; 
+}
+
+#form-erro { 
+  color: #b00020;
+  margin-bottom: 10px; 
+}
+
+/*------------------------------> Localizações <------------------------- */
+.frame{
+  border-radius: 15px;
+  
+}
+/* -----------------------------> efeitos <----------------------------- */
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+/* Slide-in de baixo */
+.slide-up {
+  transform: translateY(20px);
+  opacity: 0;
+  animation: slideUp 1s forwards;
+}
+
+@keyframes slideUp {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Zoom suave */
+.zoom {
+  transform: scale(0.9);
+  opacity: 0;
+  animation: zoomIn 1s forwards;
+}
+
+@keyframes zoomIn {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Loader (bolinha girando) */
+
+.loader {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  vertical-align: middle;
+  margin-right: 8px
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Convite de Casamento — Matheus & Patrícia</title>
+</head>
+
+<body>
+
+<header>
+</header>
+
+<main>
+    <div class="box">
+
+        <a href="index.html" class="back">voltar</a>  
+
+        <h1 class="fade-in zoom">Localização da Recepção</h1>
+        <p class="verse">Endereço: <br>
+            Endereço.</p>
+
+        <iframe class="frame"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.417789793486!2d-49.867976824087556!3d-6.074263459604808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92dd519d6a1c8565%3A0x7d1a76d9a02b619d!2sBahamas%20Espa%C3%A7o%20para%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1760968331228!5m2!1spt-BR!2sbr" 
+            width="90%" 
+            height="450" 
+            allowfullscreen="none" 
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <br>
+        <button id="bnt.app" type="button">Abrino no Aplicativo</button> 
+
+        <script>
+
+            document.getElementById('bnt.app').addEventListener('click', () => {
+            window.location.href = 'https://maps.app.goo.gl/fTjTefxqrZZxmu2M8';
+            });
+
+        </script>
+
+        <div class="contagem">
+        <p class="cont">Contagem regressiva:</p>
+        <div class="countdown" id="timer">
+        </div>
+      </div>
+
+    </div>
+</main>
+
+<footer>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
