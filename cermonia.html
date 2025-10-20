@@ -35,26 +35,23 @@
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
 
-
-
-
         <br>
         <button id="bnt.app" type="button">Abrino no Aplicativo</button> 
-
         <script>
 
             document.getElementById('bnt.app').addEventListener('click', () => {
-            window.location.href = 'https://maps.app.goo.gl/iTXWbjFsSzmAhUM29';
+              window.location.href = 'google.maps://?q=-6.083306, -49.890405';
+              setTimeout(() => {
+                window.location.href = 'https://google.com/maps?q=-6.083306, -49.890405';
             });
 
         </script>
 
-
         <div class="contagem">
-        <p class="cont">Contagem regressiva:</p>
-        <div class="countdown" id="timer">
+          <p class="cont">Contagem regressiva:</p>
+            <div class="countdown" id="timer">
+            </div>
         </div>
-         </div>
 
     </div>
 </main>
@@ -64,4 +61,5 @@
 
 <script src="script.js"></script>
 </body>
+
 </html>
