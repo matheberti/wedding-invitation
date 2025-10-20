@@ -23,7 +23,7 @@
 
         <h1 class="fade-in zoom">Localização da Recepção</h1>
         <p class="verse">Endereço: <br>
-            Endereço.</p>
+            R. E 8, Qd 125C, Lt 2930, Cidade Jardim. Parauapebas - PA, 68515-000</p>
 
         <iframe class="frame"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.417789793486!2d-49.867976824087556!3d-6.074263459604808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92dd519d6a1c8565%3A0x7d1a76d9a02b619d!2sBahamas%20Espa%C3%A7o%20para%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1760968331228!5m2!1spt-BR!2sbr" 
@@ -39,7 +39,9 @@
         <script>
 
             document.getElementById('bnt.app').addEventListener('click', () => {
-            window.location.href = 'https://maps.app.goo.gl/fTjTefxqrZZxmu2M8';
+              window.location.href = 'google.maps://?q=-6.074140, -49.865397';
+              setTimeout(() => {
+                window.location.href = 'https://google.com/maps?q=-6.074140, -49.865397';
             });
 
         </script>
@@ -58,4 +60,5 @@
 
 <script src="script.js"></script>
 </body>
+
 </html>
