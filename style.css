@@ -194,7 +194,7 @@ h1 {
 }
 .box input{
   display:block;
-  width: 445px;
+  width: 90%;
   padding: 10px 12px;
   border-radius: 10px;
   border: 1px solid var(--cor03);
@@ -205,7 +205,7 @@ h1 {
 
 .box select {
   display:block;
-  width: 471px;
+  width: 95%;
   padding: 10px 12px;
   border-radius: 10px;
   border: 1px solid var(--cor03);
@@ -229,7 +229,7 @@ h1 {
 
 .box textarea {
   display:block;
-  width: 445px;
+  width: 90%;
   padding: 10px 12px;
   border-radius: 10px;
   border: 1px solid var(--cor03);
@@ -332,3 +332,4 @@ background: var(--cor01);;
   to { transform: rotate(360deg); }
 
 }
+
