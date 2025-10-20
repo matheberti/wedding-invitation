@@ -86,6 +86,7 @@ h1 {
   font-size: 48px;
   margin: 10px 0 30px;
   color: var(--cor01);
+  word-spacing: 10px;
 }
 
 .date-box {
@@ -329,4 +330,5 @@ background: var(--cor01);;
 
 @keyframes spin {
   to { transform: rotate(360deg); }
+
 }
